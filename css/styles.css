@@ -1,20 +1,27 @@
 :root {
---primary-font-family: 'Roboto', sans-serif;
---secondary-font-family: 'Raleway', sans-serif;
---main-color: #2E2F42;
---secondary_color: #434455;
---h-f_color: #404BBF;
---color_white: #FFFFFF;
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --main-color: #2E2F42;
+    --secondary_color: #434455;
+    --h-f_color: #404BBF;
+    --color_white: #FFFFFF;
 }
 body {
     font-family: var(--primary-font-family);
+    background-color: var(--color_white);
+    color: var(--secondary_color);
 }
-.items {
+.list {
     list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.address {
+    font-style: normal;
 }
 /* ---HEADER--- */
 .primary_logo {
-    text-decoration: none;
     font-family: var(--secondary-font-family);
     font-weight: 800;
     font-size: 18px;
@@ -29,10 +36,9 @@ body {
     color: var(--main-color);
 }
 .secondary_white_logo {
-    color: var(--color_white);
+    color: #F4F4FD;
 }
-.link {
-    text-decoration: none;
+.link_item {
     font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -45,16 +51,14 @@ body {
    color: var(--h-f_color);
 }
 .item_address {
-    text-decoration: none;
-    font-style: normal;
     font-family: var(--primary-font-family);    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary_color);
 }
-.item_mail:hover,
-.item_mail:focus {
+.item_address:hover,
+.item_address:focus {
     color: var(--h-f_color);
 }
 /* ---/HEADER--- */
@@ -68,6 +72,7 @@ body {
     color: var(--color_white);
 }
 .hero_btn {
+    font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -98,7 +103,7 @@ body {
 }
 .item_about_us {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary_color);
 }
@@ -147,7 +152,7 @@ body {
 /* ---FOOTER--- */
 .footer_text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
@@ -159,6 +164,7 @@ body {
 /* ---/FOOTER--- */
 /* ---PORTFOLIO--- */
 .nav_buttons {
+    font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -168,6 +174,7 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
+    background-color: #F4F4FD;
 }
 .nav_buttons:hover,
 .nav_buttons:focus {
@@ -179,13 +186,13 @@ body {
 .projects {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main_color);
 }
 .project_industry {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary_color);
 }
