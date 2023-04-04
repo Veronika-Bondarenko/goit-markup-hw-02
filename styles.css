@@ -1,0 +1,192 @@
+:root {
+--primary-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+--main-color: #2E2F42;
+--secondary_color: #434455;
+--h-f_color: #404BBF;
+--color_white: #FFFFFF;
+}
+body {
+    font-family: var(--primary-font-family);
+}
+.items {
+    list-style: none;
+}
+/* ---HEADER--- */
+.primary_logo {
+    text-decoration: none;
+    font-family: var(--secondary-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.secondary_dark_logo {
+    color: var(--main-color);
+}
+.secondary_white_logo {
+    color: var(--color_white);
+}
+.link {
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.link:hover,
+.link:focus {
+   color: var(--h-f_color);
+}
+.item_address {
+    text-decoration: none;
+    font-style: normal;
+    font-family: var(--primary-font-family);    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary_color);
+}
+.item_mail:hover,
+.item_mail:focus {
+    color: var(--h-f_color);
+}
+/* ---/HEADER--- */
+/* ---HERO--- */
+.hero_title {    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color_white);
+}
+.hero_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--color_white);
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero_btn:hover,
+.hero_btn:focus {
+    background: var(--h-f_color);
+}
+.hero_bd {
+    width: 1440px;
+    background: var(--main-color);
+}
+/* ---/HERO--- */
+.list_about_us {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.item_about_us {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary_color);
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.team_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.name_team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.position_worker {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary_color);
+}
+.bd_team {
+    width: 1440px;
+    background: #F4F4FD;
+}
+.bd_cart {
+    background: var(--color_white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+/* ---FOOTER--- */
+.footer_text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.footer_bd {
+    width: 1440px;
+    height: 312px;
+    background: var(--main-color);
+}
+/* ---/FOOTER--- */
+/* ---PORTFOLIO--- */
+.nav_buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.nav_buttons:hover,
+.nav_buttons:focus {
+    color: var(--color_white);
+    background: var(--h-f_color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px
+}
+.projects {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--main_color);
+}
+.project_industry {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary_color);
+}
+/* ---/PORTFOLIO--- */
